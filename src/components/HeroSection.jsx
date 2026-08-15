@@ -54,10 +54,24 @@ export default function HeroSection({ setActivePage, openBookingModal }) {
               <button
                 onClick={openBookingModal}
                 className="btn-primary"
-                style={{ padding: '1rem 2rem', fontSize: '1rem' }}
+                style={{ padding: '1rem 2rem', fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '0.6rem' }}
               >
                 <Calendar size={18} />
-                <span>Book Your Royal Table</span>
+                <span>Reserve a Table</span>
+                <span
+                  style={{
+                    background: '#DA3743',
+                    color: '#FFF',
+                    fontSize: '0.7rem',
+                    fontWeight: '800',
+                    padding: '2px 7px',
+                    borderRadius: '4px',
+                    marginLeft: '4px',
+                    letterSpacing: '0.02em'
+                  }}
+                >
+                  OpenTable
+                </span>
               </button>
 
               <button

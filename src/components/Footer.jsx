@@ -211,6 +211,35 @@ export default function Footer({ setActivePage, openBookingModal }) {
                   Book a Table Online →
                 </button>
               </li>
+              <li>
+                <a
+                  href={siteConfig.openTable.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    color: '#FFF',
+                    fontWeight: '600',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.45rem',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <span
+                    style={{
+                      background: '#DA3743',
+                      color: '#FFF',
+                      fontSize: '0.65rem',
+                      fontWeight: '800',
+                      padding: '2px 6px',
+                      borderRadius: '3px'
+                    }}
+                  >
+                    OpenTable
+                  </span>
+                  <span>Instant Reservation →</span>
+                </a>
+              </li>
             </ul>
           </div>
 

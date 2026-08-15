@@ -222,6 +222,66 @@ export default function ContactSection() {
               </div>
             </div>
 
+            {/* OpenTable Partner Card */}
+            <div
+              style={{
+                background: 'linear-gradient(135deg, rgba(218, 55, 67, 0.15) 0%, rgba(20, 20, 20, 0.95) 100%)',
+                border: '1px solid rgba(218, 55, 67, 0.35)',
+                borderRadius: 'var(--radius-md)',
+                padding: '1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: '1rem',
+                flexWrap: 'wrap'
+              }}
+            >
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.35rem' }}>
+                  <div
+                    style={{
+                      background: '#DA3743',
+                      color: '#FFF',
+                      padding: '2px 8px',
+                      borderRadius: '4px',
+                      fontWeight: '800',
+                      fontSize: '0.75rem'
+                    }}
+                  >
+                    OpenTable
+                  </div>
+                  <span style={{ color: '#FFF', fontWeight: '700', fontSize: '0.95rem' }}>
+                    Online Table Booking
+                  </span>
+                </div>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.825rem', margin: 0 }}>
+                  Real-time table confirmation for parties of 1 to 20 guests.
+                </p>
+              </div>
+
+              <a
+                href={siteConfig.openTable.url}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  background: 'linear-gradient(135deg, #DA3743 0%, #B82530 100%)',
+                  color: '#FFF',
+                  padding: '0.65rem 1.25rem',
+                  borderRadius: '8px',
+                  fontWeight: '700',
+                  fontSize: '0.85rem',
+                  textDecoration: 'none',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.4rem',
+                  boxShadow: '0 4px 15px rgba(218, 55, 67, 0.4)'
+                }}
+              >
+                <span>Book on OpenTable</span>
+                <ExternalLink size={14} />
+              </a>
+            </div>
+
             {/* Google Maps Embed iframe */}
             <div
               style={{

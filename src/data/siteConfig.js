@@ -29,7 +29,18 @@ export const siteConfig = {
     googleWriteReviewUrl:
       'https://search.google.com/local/writereview?placeid=ChIJ4SSe8DFfkWsRcSwhvURAfHc',
     whatsappUrl:
-      'https://wa.me/61421777741?text=Hello%20Pera%20Palace,%20I%20would%20like%20to%20inquire%20about%20a%20booking'
+      'https://wa.me/61421777741?text=Hello%20Pera%20Palace,%20I%20would%20like%20to%20inquire%20about%20a%20booking',
+    openTableUrl: 'https://www.opentable.com.au/r/pera-palace-ottoman-wynnum',
+    openTableSearchUrl: 'https://www.opentable.com.au/s?term=Pera+Palace+Ottoman+Wynnum'
+  },
+
+  openTable: {
+    enabled: true,
+    restaurantName: 'Pera Palace Ottoman',
+    partnerBadge: 'Verified OpenTable Partner',
+    url: 'https://www.opentable.com.au/r/pera-palace-ottoman-wynnum',
+    searchUrl: 'https://www.opentable.com.au/s?term=Pera+Palace+Ottoman+Wynnum',
+    instantBooking: true
   },
 
   tradingHours: [
